@@ -1,0 +1,20 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: mariadb:latest
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: bond-2003
+      MARIADB_DATABASE: mariadb-cifra
+      MARIADB_MYSQL_LOCALHOST_USER: bond
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    volumes:
+      - ./data:/var/lib/mysql
