@@ -4,8 +4,8 @@ services:
     image: mariadb:latest
     #restart: always
     environment:
-      MYSQL_USER: turreta
-      MYSQL_PASSWORD: turreta+pwd!
+      MYSQL_USER: gAAAAABmEYz-Pw8CIJKK6ha5lSATCHVDn33Wdnn1wrfHp8NPFtv_BugiNFKjAwwmu6IONdx-ldua0sWDCwWj0Sy8yJz_JAM5wQ==
+      MYSQL_PASSWORD: gAAAAABmEYz-f5jgR0MN7oV_dHy1qmmw6z1nDXJ4YvEptk9RaGiiYH-zwc50ukKgQ_yxKL3lyMtzLGRL25_TYCqLaIdG2vgdbA==
       MYSQL_ROOT_PASSWORD: a1128f69-e6f7-4e93-a2df-3d4db6030abc
       MYSQL_DATABASE: turretadb
     ports:
