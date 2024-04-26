@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Описание: База данных на MariaDB
 
 Этот проект представляет собой базу данных, разработанную с использованием MariaDB. 
@@ -29,7 +28,5 @@
 
 Вы можете использовать эту базу данных для хранения информации и выполнения запросов к данным.
 ---
-This functionality makes SQL-MariaDB-Cifra39 a powerful tool for managing groups in Telegram.
 =======
-"#  SQL-MariaDB-Cifra39" 
->>>>>>> origin/main
+"#  SQL-MariaDB-Cifra39"
